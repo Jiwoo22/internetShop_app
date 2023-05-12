@@ -1,17 +1,11 @@
 package com.solvd.internetShop;
 
-import exceptions.PriceException;
+import com.solvd.exceptions.PriceException;
 
 public abstract class Product implements PriceCalculatable{
     protected String name;
     protected double price;
-    protected static int count;
-
-    protected final double discountRate;
-
-    static {
-        count = 0;
-    }
+    protected final double DISCOUNT_RATE;
 
     public Product(String name, double price, double discountRate) throws PriceException {
         if(price < 0){
@@ -21,8 +15,7 @@ public abstract class Product implements PriceCalculatable{
         }
 
         this.name = name;
-        this.discountRate = discountRate;
-        count++;
+        this.DISCOUNT_RATE = discountRate;
     }
 
     public String getName() {
@@ -33,7 +26,7 @@ public abstract class Product implements PriceCalculatable{
         return price;
     }
 
-    public void setPrice(int price) throws PriceException {
+    public void setPrice(double price) throws PriceException {
         if(price < 0){
             throw new PriceException("price can't be negative");
         } else {
@@ -45,15 +38,12 @@ public abstract class Product implements PriceCalculatable{
     public double calculatePrice() {
         return price;
     }
+
     protected abstract String getItemType();
 
     @Override
     public String toString(){
         return "Product [name = " + name + ", price = " + price + "]";
-    }
-
-    public static int getCount(){
-        return count;
     }
 }
 

@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/test-classes:/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/classes:/Users/jiwoochoi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jiwoochoi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jiwoochoi/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/jiwoochoi/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
+    <property name="java.class.path" value="/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/test-classes:/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/classes:/Users/jiwoochoi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jiwoochoi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jiwoochoi/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/jiwoochoi/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/jiwoochoi/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/jiwoochoi/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/surefire/surefirebooter10452269825981674862.jar /Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/surefire 2023-05-08T21-43-07_779-jvmRun1 surefire3714100053908865089tmp surefire_016406175235630243123tmp"/>
+    <property name="sun.java.command" value="/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/surefire/surefirebooter9325718490723441704.jar /Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/surefire 2023-05-12T00-54-14_393-jvmRun1 surefire1207272849636727210tmp surefire_017175036600283501622tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/test-classes:/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/classes:/Users/jiwoochoi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jiwoochoi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jiwoochoi/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/jiwoochoi/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/test-classes:/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/classes:/Users/jiwoochoi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jiwoochoi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jiwoochoi/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/jiwoochoi/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/jiwoochoi/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/jiwoochoi/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/jiwoochoi"/>
     <property name="user.language" value="en"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/surefire/surefirebooter10452269825981674862.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jiwoochoi/Desktop/projects/Solvd_practice/maven/internetShop-app/target/surefire/surefirebooter9325718490723441704.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -54,5 +54,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.solvd.internetShop.AppTest" time="0"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.solvd.internetShop.AppTest" time="0.001"/>
 </testsuite>

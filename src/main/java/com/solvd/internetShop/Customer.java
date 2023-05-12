@@ -8,33 +8,41 @@ public class Customer {
     private String email;
     private List<Product> productList;
 
-    public Customer(String name, String email){
+    public Customer (String name, String email) {
         this.name = name;
         this.email = email;
         this.productList = new ArrayList<>();
     }
 
-    public String getName(){
+    public String getName () {
         return name;
     }
 
-    public void setName(String name){
+    public void setName (String name) {
         this.name = name;
     }
 
-    public String getEmail(){
+    public String getEmail () {
         return email;
     }
 
-    public void setEmail(String email){
+    public void setEmail (String email) {
         this.email = email;
     }
 
-    public List<Product> getProductList() {
+    public List<Product> getProductList () {
         return productList;
     }
 
-    public void setProductList(List<Product> productList) {
+    public void setProductList (List<Product> productList) {
         this.productList = productList;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", email='" + email +
+                '}';
     }
 }

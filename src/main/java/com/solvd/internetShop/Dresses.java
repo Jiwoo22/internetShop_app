@@ -1,34 +1,41 @@
 package com.solvd.internetShop;
 
-import exceptions.PriceException;
+import com.solvd.enums.ProductType;
+import com.solvd.exceptions.PriceException;
 
-public final class Dresses extends WomensClothing {
+import java.util.Objects;
 
-    public Dresses(String name, double price, double discountRate,  String size, String color) throws PriceException {
+public final class Dresses extends WomenClothing {
+    private String TYPE = ProductType.DRESSES.getType();
+
+    public Dresses (String name, double price, double discountRate,
+                    String size, String color) throws PriceException {
         super(name, price, discountRate, size, color);
     }
 
     @Override
-    public String getItemType() {
-        return "Dresses";
+    public String getItemType () {
+        return TYPE;
     }
 
     @Override
-    public String toString() {
-        return "Dress [name=" + name + ", price=" + price + ", size=" + size + ", color=" + color + "]";
+    public String toString () {
+        return "Dress [name=" + name + ", price=" + price
+                + ", size=" + size + ", color=" + color + "]";
     }
 
     @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = super.hashCode();
-        result = prime * result + color.hashCode();
-        return result;
+    public boolean equals (Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Dresses dresses = (Dresses) o;
+        return Objects.equals(color, dresses.color) &&
+                Objects.equals(name, dresses.name) &&
+                Objects.equals(size, dresses.size);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        Dresses other = (Dresses) obj;
-        return this.color.equals(other.color);
+    public int hashCode () {
+        return Objects.hash(color, name, size);
     }
 }
